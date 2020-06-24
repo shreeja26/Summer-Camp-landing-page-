@@ -155,12 +155,19 @@
      margin: auto;
  }
  @media only screen and (max-width: 850px) {
-     .courses{
-         flex-direction: column;
+     #course1,#course3,#course5{
+         flex-direction: column-reverse;
          align-items: center;
          height: 100vh;
      }
  }
+ @media only screen and (max-width: 850px) {
+    #course2,#course4,#course6{
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+    }
+}
  .dance{
      width: 50%;
      height: 100%;
